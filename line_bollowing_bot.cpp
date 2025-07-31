@@ -226,7 +226,7 @@ void loop()
       Left(255);
     else if (command == "R") 
       Right(255);
-    else if (command == "V")  
+    else if(command == "V")  
       Stop();
     else if (command == "P") 
       arm_up();
